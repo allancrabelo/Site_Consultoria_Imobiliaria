@@ -38,6 +38,11 @@ header nav li a {
     font-size: 16px;
 }
 
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
 .image-container img {
     width: 100%;
     height: auto;
@@ -48,7 +53,7 @@ header nav li a {
 .text-overlay {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 32%;
     transform: translate(-100%, -130%);
     color: white; 
     font-size: 32px; 
@@ -82,7 +87,7 @@ form input,
 form textarea,
 form button {
     display: block;
-    width: 320px;
+    width: 320px; 
     margin-bottom: 8px;
     padding: 8px;
 }
@@ -141,11 +146,17 @@ section h2 {
 }
 
 .articles article img {
-    height: 180px;
+    height: 320px;
+    margin: 32px;
 }
 
 .articles article {
     width: 30%;
     box-sizing: border-box;
     margin-bottom: 20px;
+}
+
+#projects h2{
+    color:#555555;
+    padding: 12px;
 }
